@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width; // 1140px is standard
-  background-color: #eee;
   margin: 0 auto; // center block element inside of another block element
   @include clearfix;
 
@@ -11,7 +10,6 @@
 
   // all classes like "col-"
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
