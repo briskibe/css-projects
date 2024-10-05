@@ -15,10 +15,16 @@
   background-size: cover;
 
   transform: skewY(-7deg);
-  margin-top: -10rem;
+  margin-top: -15rem;
 
   // select all DIRECT childs, and skew them back (didn't skew in feature-box because this is component)
   & > * {
     transform: skewY(7deg);
   }
+}
+
+.section-tours {
+  background-color: $color-gray-light-1;
+  padding: 35rem 0 50rem 0;
+  margin-top: -15rem;
 }
